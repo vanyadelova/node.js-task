@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const playlistsRouter = require('./playlists/routes');
-const songsRouter = require('./songs/routes');
+const shipyardsRouter = require('./shipyards/routes');
+const shipsRouter = require('./ships/routes');
 const usersRouter = require('./users/routes');
 const authRouter = require('./auth/routes')
 
@@ -11,8 +11,8 @@ const port = process.env.PORT || 4000
 
 app
   .use(bodyParser.json())
-  .use(playlistsRouter)
-  .use(songsRouter)
+  .use(shipyardsRouter)
+  .use(shipsRouter)
   .use(usersRouter)
   .use(authRouter)
   .listen(port, () => console.log(`Listening on port ${port}`));
