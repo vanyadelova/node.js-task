@@ -33,13 +33,13 @@ Install project dependencies, Start the server and then open localhost:4000 in y
 
 ## Technologies used
 
-- React
-- Redux
-- React router dom
-- redux-thunk
-- uuid
+- Express
+- Sequelize
+- Nodemon
+- bcrypt
+- jsonwebtoken
 - body-parser
-- cors
+
 
 
 
