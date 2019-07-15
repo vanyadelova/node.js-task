@@ -1,4 +1,4 @@
-# 🚢 API server (in Node.js) based on the API specification 🚢 
+# 🚢 API server (in Node.js) 🚢 
 
 ## What this project is about
 This is my own attempt at the MSD's Backend challenge. I was expected to develop a well-structured API server (in Node.js) based on the API specification. The app should include the following features:
